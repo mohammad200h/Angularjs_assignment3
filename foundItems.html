@@ -1,0 +1,14 @@
+<div >
+
+
+  <ul>
+    <li ng-repeat="item in FIC.found">
+      {{ item.short_name }}  , {{ item.name }}, {{item.special_instructions}}
+      <button ng-click="FIC.onRemove({index: $index});">Don't want this one!</button>
+
+
+    </li>
+  </ul>
+
+
+</div>
